@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <body>
     <main role="main" class="container fd-home-container">
-      <?php if(is_user_logged_in() == false): ?>
+      <?php if(is_user_logged_in()): ?>
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
