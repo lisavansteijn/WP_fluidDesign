@@ -1,0 +1,141 @@
+/* Since we're not using sass, we have to define the global styling here */
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  display: flex;
+}
+
+main {
+  min-height: calc(100vh - 70px);
+}
+
+/* START NAV AND FOOTER */
+.fd-center-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fd-footer-base > .fd-footer-page > .fd-footer > .nav-link {
+  color: black;
+  text-align: left;
+}
+
+.footer > .navbar {
+  margin-bottom: 7em;
+  padding: 4em 4em 0em 4em;
+  background-color:white;
+}
+
+.footer > .navbar > .fd-footer-page > .fd-footer > ul li a {
+  color: black;
+}
+
+.countdown-numeric {
+  font-weight: 700;
+  font-size: 4em;
+  padding-left: 0.5em;
+}
+
+/* FOOTER CSS FOR THE TEXT */
+.footer-text {
+  position: absolute;
+  align-items: center;
+  padding-left: 10em;
+  background-image: url(../img/footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5em;
+}
+
+.footer-icons {
+  padding-right: 1.8em;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-icons {
+    padding-right: 0em;
+    font-size: 30px;
+  }
+  .footer-text {
+    position: absolute;
+    bottom: 0;
+    padding-left: 0em;
+  }
+}
+
+.nav-full-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0.5px;
+  z-index: 1040;
+}
+
+.nav-full-screen ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-full-screen li a{
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  -webkit-transition: letter-spacing .6s ease;
+  transition: letter-spacing .6s ease;
+}
+
+.nav-full-screen li a:hover {
+  letter-spacing: 5px;
+  -webkit-transition: letter-spacing .6s ease;
+  transition: letter-spacing .6s ease;
+}
+
+.navbar-toggler {
+  z-index: 1060;
+}
+
+/* navbar button */
+.close {
+  background-image: url(../img/times-solid.svg);
+  z-index: 1050;
+}
+
+.navbar-toggler-bars {
+  z-index: 1050;
+  background-image: url(../img/bars-solid.svg);
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.close:not(:disabled):not(.disabled) {
+  background-image: url(../img/times-solid.svg);
+  height: 30px;
+}
+
+/* START NAV AND FOOTER */
+
+/* START CONTACT PAGE */

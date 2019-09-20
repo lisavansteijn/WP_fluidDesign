@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490px" height="1175px" viewBox="0 0 490 1175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Stroke 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.8132921%" y1="18.6963219%" x2="44.1427836%" y2="91.1979782%" id="linearGradient-1">
+            <stop stop-color="#002C42" offset="0%"></stop>
+            <stop stop-color="#F36B7A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M35.6798549,429.459727 C35.6798549,429.459727 243.689503,653.844632 96.4813671,769.658239 C-28.3235924,867.373112 3.67709434,1026.61477 3.67709434,1026.61477 C3.67709434,1026.61477 13.278752,1167.76238 173.286333,1175 C372.185813,1163.27346 310.890738,737.08427 310.890738,737.08427 C310.890738,737.08427 241.420775,417.465827 429.298049,268.907043 C600.30295,136.028982 355.692944,31.3555837 355.692944,31.3555837 C355.692944,31.3555837 131.683989,-84.4580232 90.0816445,129.070456 C48.4793001,342.598935 -41.1251114,320.215325 35.6798549,429.459727 Z" id="Stroke-1" fill="url(#linearGradient-1)" transform="translate(245.000000, 587.500000) scale(-1, 1) translate(-245.000000, -587.500000) "></path>
+    </g>
+</svg>
