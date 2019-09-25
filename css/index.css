@@ -139,3 +139,65 @@ main {
 /* START NAV AND FOOTER */
 
 /* START CONTACT PAGE */
+.naam {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.bedrijf-naam {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.opdracht {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.deadline {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.totaal-bedrag {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.tel-nummer {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.email-adres {
+  border: 0;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 5px;
+  text-align: center;
+}
+
+.wpcf7-submit {
+  width: 160px;
+  height: 33px;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: -0.94px;
+  text-align: center;
+  color: #FFF;
+  border: 1px solid black;
+  border-radius: 18px;
+  background-color: #F36B79;
+}
